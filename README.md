@@ -28,7 +28,7 @@ User Story #11: The #quote-box wrapper element should be horizontally centered. 
 
 
 ## View Project
-[View live demo of Random Quote Machine](https://saracarlile.github.io/technical-documentation-page/)
+[View live demo of Random Quote Machine](https://saracarlile.github.io/quote-machine/)
 
 ## Technologies
 HTML5, CSS3, JavaScript, React.JS, Material Design
