@@ -30,7 +30,7 @@ body {
   border-radius: 1px;
   padding: 1em 2em;
   width: 40%;
-  height: 40%;
+  height: 38%;
   min-width: 320px;
 }
 
@@ -49,41 +49,41 @@ https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 }
 
 .flex-wrap {
-  width: 100%;
-  height: 200px;
+  display: flex;
 }
 
 
 
 #new-quote {
   padding: 10px;
-  border-radius: 15px;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 26px;
   cursor: pointer;
-  float: left;
+  color: white;
+  margin-left: 30px;
+  border-radius: 1px;
 }
 
-#new-quote:hover, #social:hover {
+#new-quote:hover, #tweet-quote:hover {
   box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, .5);
 }
 
-#new-quote:active, #social:active {
+#new-quote:active, #tweet-quote:active {
   color: black;
 }
 
 button:focus {outline:0;}
 
-#social {
+#tweet-quote {
   padding: 10px;
-  border-radius: 15px;
   font-size: 22px;
   line-height: 26px;
   cursor: pointer;
   color: white;
-  float: right;
+  margin-left: 15px;
+  border-radius: 1px;
 }
-.fa {
+.fab, .fas {
   color: white;
 }
 

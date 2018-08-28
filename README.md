@@ -1,6 +1,6 @@
 ## Synopsis
 
-Build a Random Quote Machine. This one of Free Code Camp's Front End Libraries Projects.
+Build a Random Quote Machine. This is one of Free Code Camp's Front End Libraries Projects.
 
 ## More Info
 
