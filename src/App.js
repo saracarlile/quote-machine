@@ -42,9 +42,9 @@ class App extends Component {
           <cite><p id="author" className={this.state.quotes[this.state.currentQuote]["backgroundClassText"]}> - {this.state.quotes[this.state.currentQuote]["author"]}</p></cite>
         </div>
         <div class="flex-wrap">
-          <p><a id="new-quote" onClick={this.changeQuote}  className={this.state.quotes[this.state.currentQuote]["backgroundClass"]}><i class="fas fa-sync-alt"></i></a></p>
-          <p><a id="tweet-quote" className={this.state.quotes[this.state.currentQuote]["backgroundClass"]} href={"https://twitter.com/intent/tweet?text=" + (encodeURIComponent(this.state.quotes[this.state.currentQuote]["quote"])) + 
-          "%0A" + "%20-" + (encodeURIComponent(this.state.quotes[this.state.currentQuote]["author"])) } target="_blank" ><i className="fab fa-twitter"></i></a></p>
+          <a id="new-quote" onClick={this.changeQuote}  className={this.state.quotes[this.state.currentQuote]["backgroundClass"]}><i class="fas fa-sync-alt"></i></a>
+          <a id="tweet-quote" className={this.state.quotes[this.state.currentQuote]["backgroundClass"]} href={"https://twitter.com/intent/tweet?text=" + (encodeURIComponent(this.state.quotes[this.state.currentQuote]["quote"])) + 
+          "%0A" + "%20-" + (encodeURIComponent(this.state.quotes[this.state.currentQuote]["author"])) } target="_blank" ><i className="fab fa-twitter"></i></a>
         </div>
       </div>
     </div>
